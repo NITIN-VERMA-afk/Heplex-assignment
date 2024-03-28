@@ -43,7 +43,7 @@ const cardData: Card[] = [
 const Sports = () => {
   return (
     <div className="container w-3/4">
-      <h1 className="inline-block border-b text-black border-gray-500 ml-10">sports</h1>
+      <h1 className="inline-block border-b text-black dark:text-white border-gray-500 ml-10">sports</h1>
       <div className="flex justify-center items-center gap-2 flex-wrap md:justify-center mt-4">
         {cardData.map((item) => (
           <div
